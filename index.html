@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer made by supol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <div class="timer">
+            <div class="timer-label">Pomodoro </div>
+            <div class="time-left">25:00</div>
+            <div class="progress-bar"></div>
+            <button class="timer-btn start-btn">Start</button>
+            <button class="timer-btn reset-btn">Reset</button>
+        </div>
+        <div class="settings">
+            <div class="pomodoro-settings">
+                <label for="pomodoro-length">Pomodoro length:</label>
+                <input type="number" id="pomodoro-length" min="1" max="60" value="25">
+            </div>
+            <div class="break-settings">
+                <label for="break-length">Break length:</label>
+                <input type="number" id="break-length" min="1" max="60" value="5">
+            </div>
+            <div class="title">The Pomodoro made by Supol</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
